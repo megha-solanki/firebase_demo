@@ -69,11 +69,11 @@ class CustomTextFormField extends StatelessWidget {
               enabled: isEnabled,
               decoration: InputDecoration(
                 hintText: hintText,
-                constraints: const BoxConstraints(maxHeight: 50),
                 fillColor: Colors.white,
                 filled: true,
                 isDense: true,
-                hintStyle: TextStyle(fontWeight: FontWeight.w400,
+                hintStyle: TextStyle(
+                  fontWeight: FontWeight.w400,
                   color: Colors.grey.withOpacity(0.5),
                 ),
                 contentPadding: const EdgeInsets.only(
