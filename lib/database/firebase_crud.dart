@@ -64,7 +64,7 @@ class FirebaseCrud {
   }
 
   //Delete employee data
-  static Future<Response> deleteEmployee({required String docId}) async {
+  static Future<Response> deleteEmp({required String docId}) async {
     Response response = Response();
     DocumentReference documentReference = _collection.doc(docId);
 
